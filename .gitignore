@@ -1,0 +1,33 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C / C++ build outputs
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Virtual environments
+venv/
+.env/
+env/
+.venv/
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Operating system / IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Large temporary simulation caches
+*.tmp
+*.log

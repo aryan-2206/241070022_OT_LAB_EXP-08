@@ -1,0 +1,19 @@
+# Python dependencies for OT Lab Experiment 08: Optimize Anything
+# Core scientific computing and optimization
+numpy>=1.26.0
+scipy>=1.12.0
+matplotlib>=3.8.0
+pandas>=2.2.0
+seaborn>=0.13.0
+networkx>=3.2.0
+
+# Machine learning & automatic differentiation
+torch>=2.2.0
+
+# Testing and code quality
+pytest>=7.4.0
+pytest-cov>=4.1.0
+
+# Optional quantum & optimization toolkits (with fallback pure-python implementations)
+# qiskit>=1.0.0
+# pennylane>=0.35.0
