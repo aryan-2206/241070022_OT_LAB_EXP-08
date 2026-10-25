@@ -1,0 +1,3 @@
+Stage,Instruction_Count,VM_Cycles,Output_Value,Compile_Time_ms,Reduction_%
+Unoptimized IR,11,21,166,0.1577000366523862,0.0
+Optimized IR (4 Passes),9,9,166,0.14400004874914885,18.181818181818183
