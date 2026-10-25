@@ -1,0 +1,7 @@
+Workload,Policy,Avg_Turnaround_Ticks,Avg_Wait_Ticks,Avg_Response_Ticks,Context_Switches,Fairness_Index,Interactive_TAT
+cpu_bound,Round-Robin (Default xv6),138.25,99.5,2.5,155,0.964859437751004,138.25
+cpu_bound,Stride & Priority + Aging (Optimized),138.25,99.5,2.5,155,0.964859437751004,138.25
+io_bound,Round-Robin (Default xv6),97.0,69.5,2.5,110,0.9603174603174601,97.0
+io_bound,Stride & Priority + Aging (Optimized),94.75,67.25,2.5,110,0.9603174603174601,94.75
+mixed_contention,Round-Robin (Default xv6),156.5,109.0,2.5,190,0.8935643564356436,77.0
+mixed_contention,Stride & Priority + Aging (Optimized),146.5,99.0,2.5,190,0.8935643564356436,37.0
