@@ -1,0 +1,7 @@
+Problem,Solver,Total_Value,Total_Weight,Capacity,Elapsed_ms,Optimality_Gap_%
+"0/1 Knapsack (N=12, C=45)",Greedy,99.0,43.0,45.0,0.049400026910007,4.807692307692308
+"0/1 Knapsack (N=12, C=45)",Dynamic Programming,104.0,45.0,45.0,0.21089997608214617,0.0
+"0/1 Knapsack (N=12, C=45)",Branch-and-Bound,104.0,45.0,45.0,0.10299996938556433,0.0
+"0/1 Knapsack (N=12, C=45)",ILP (SciPy),104.0,45.0,45.0,5.528200068511069,0.0
+Max-Cut 5-Node Graph,Classical Exact (Brute Force),10.0,,,0.08349993731826544,0.0
+Max-Cut 5-Node Graph,Classical Simulated Annealing,10.0,,,3.974399995058775,0.0
