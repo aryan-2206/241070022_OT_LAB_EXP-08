@@ -1,0 +1,13 @@
+Category,Experiment,Metric,Baseline_Value,Optimized_Value,Ratio_or_Speedup,Notes
+Submodular Coverage,Greedy Selection (k=4),Covered Elements,36.0,36.0,1.0,"Guarantee: >= 0.632, Violations: 0"
+Parallel Computing,Static Chunking (p=1),Elapsed Time (s),0.0014088999014347792,0.0038044999819248915,0.3703245914386743,Parallel Efficiency: 0.37
+Parallel Computing,Work Stealing (p=1),Elapsed Time (s),0.0014088999014347792,0.001581600052304566,0.8908066861668703,Parallel Efficiency: 0.89
+Parallel Computing,Static Chunking (p=2),Elapsed Time (s),0.0014088999014347792,0.003626600024290383,0.38849056747316896,Parallel Efficiency: 0.19
+Parallel Computing,Work Stealing (p=2),Elapsed Time (s),0.0014088999014347792,0.0033789000008255243,0.41696999055626394,Parallel Efficiency: 0.21
+Parallel Computing,Static Chunking (p=4),Elapsed Time (s),0.0014088999014347792,0.008297899970784783,0.16978993557348593,Parallel Efficiency: 0.04
+Parallel Computing,Work Stealing (p=4),Elapsed Time (s),0.0014088999014347792,0.002017799997702241,0.698235654197223,Parallel Efficiency: 0.17
+Parallel Computing,Pipeline Parallelism (3 stages),Elapsed Time (s),0.0014088999014347792,0.04693770001176745,0.030016381311431174,Staged queue concurrency
+Distributed Learning,FedAvg (E=1 local step),Global MSE Loss,0.4012726013924879,1.5329985580064664,0.26175667243569267,15 communication rounds
+Distributed Learning,FedAvg (E=5 local steps),Global MSE Loss,0.4012726013924879,0.03741490668413729,10.724939254294986,"15 communication rounds, lower network traffic"
+Multi-Task Optimization,MGDA (Pareto Stationarity),Total Combined Loss (L1 + L2),14.998543184221871,38.898960566320895,0.38557696570452216,"L1: 7.511, L2: 31.388"
+Multi-Task Optimization,GradNorm,Total Combined Loss (L1 + L2),14.998543184221871,38.759706710256545,0.38696224655004874,"L1: 7.517, L2: 31.243"
