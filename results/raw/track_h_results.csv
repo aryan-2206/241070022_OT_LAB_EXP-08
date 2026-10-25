@@ -1,0 +1,4 @@
+Optimization_Stage,Latency_ms,Storage_Overhead_KB,Selected_Indices,Plan_Summary,Speedup_Factor
+Baseline (Full Table Scans),0.36736499750986695,0.0,None,SCAN TABLE Customer / Orders / LineItem,1.0
+Greedy Index Selection,0.35543625213904306,127.0,"idx_cust_mkt,idx_orders_composite,idx_line_order",SEARCH TABLE USING INDEX,1.033560857394359
+ILP Optimal Index Selection,0.30907500186003745,127.0,"idx_cust_mkt,idx_orders_composite,idx_line_order","SEARCH TABLE USING INDEX (idx_cust_mkt, idx_orders_cust, idx_line_order)",1.188594986003513
