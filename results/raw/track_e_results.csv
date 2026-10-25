@@ -1,0 +1,5 @@
+Problem,Solver,Total_Cost,Carbon_Emissions_kg,Travel_Distance_km,Lateness_mins,Feasible,Elapsed_ms,Optimality_Gap_%
+"EcoRoute Campus (N=20, K=3)",Greedy Nearest-Neighbor (Baseline),2126.127157376667,7.500681679539298,59.32693151228527,384.3121775450779,False,0.25239994283765554,23.600017436743173
+"EcoRoute Campus (N=20, K=3)",Simulated Annealing (EcoRoute),1624.3607775084417,9.983619445417451,71.11012567556634,0.0,False,70.164900040254,0.0
+"Small Benchmark (N=6, K=2)",Exact Exhaustive Search,5.2561783636299655,2.675872403797854,25.80305959832112,0.0,True,8.431899943388999,0.0
+"Small Benchmark (N=6, K=2)",Simulated Annealing (EcoRoute),5.2561783636299655,2.675872403797854,25.80305959832112,0.0,True,14.2,0.0
